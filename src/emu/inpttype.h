@@ -250,7 +250,7 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 4, PLAYER4, BUTTON15,            "P4 Button 15",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 4, PLAYER4, BUTTON16,            "P4 Button 16",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 4, PLAYER4, START,               "P4 Start",               SEQ_DEF_1(INDEXED(JOYCODE_START, 3)) )
-	INPUT_PORT_DIGITAL_TYPE( 4, PLAYER4, SELECT,              "P4 Select",              SEQ_DEF_1(INDEXED(JOYCODE_COIN, 3)) )
+	INPUT_PORT_DIGITAL_TYPE( 4, PLAYER4, SELECT,              "P4 Select",              SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 3)) )
 
 	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, JOYSTICK_UP,         "P5 Up",                  SEQ_DEF_3(INDEXED(JOYCODE_Y_UP_SWITCH, 4), SEQCODE_OR, INDEXED(JOYCODE_HAT1UP, 4)) )
 	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, JOYSTICK_DOWN,       "P5 Down",                SEQ_DEF_3(INDEXED(JOYCODE_Y_DOWN_SWITCH, 4), SEQCODE_OR, INDEXED(JOYCODE_HAT1DOWN, 4)) )
@@ -281,7 +281,7 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, BUTTON15,            "P5 Button 15",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, BUTTON16,            "P5 Button 16",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, START,               "P5 Start",               SEQ_DEF_1(INDEXED(JOYCODE_START, 4)) )
-	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, SELECT,              "P5 Select",              SEQ_DEF_1(INDEXED(JOYCODE_COIN, 4)) )
+	INPUT_PORT_DIGITAL_TYPE( 5, PLAYER5, SELECT,              "P5 Select",              SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 4)) )
 
 	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, JOYSTICK_UP,         "P6 Up",                  SEQ_DEF_3(INDEXED(JOYCODE_Y_UP_SWITCH, 5), SEQCODE_OR, INDEXED(JOYCODE_HAT1UP, 5)) )
 	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, JOYSTICK_DOWN,       "P6 Down",                SEQ_DEF_3(INDEXED(JOYCODE_Y_DOWN_SWITCH, 5), SEQCODE_OR, INDEXED(JOYCODE_HAT1DOWN, 5)) )
@@ -312,7 +312,7 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, BUTTON15,            "P6 Button 15",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, BUTTON16,            "P6 Button 16",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, START,               "P6 Start",               SEQ_DEF_1(INDEXED(JOYCODE_START, 5)) )
-	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, SELECT,              "P6 Select",              SEQ_DEF_1(INDEXED(JOYCODE_COIN, 5)) )
+	INPUT_PORT_DIGITAL_TYPE( 6, PLAYER6, SELECT,              "P6 Select",              SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 5)) )
 
 	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, JOYSTICK_UP,         "P7 Up",                  SEQ_DEF_3(INDEXED(JOYCODE_Y_UP_SWITCH, 6), SEQCODE_OR, INDEXED(JOYCODE_HAT1UP, 6)) )
 	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, JOYSTICK_DOWN,       "P7 Down",                SEQ_DEF_3(INDEXED(JOYCODE_Y_DOWN_SWITCH, 6), SEQCODE_OR, INDEXED(JOYCODE_HAT1DOWN, 6)) )
@@ -343,7 +343,7 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, BUTTON15,            "P7 Button 15",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, BUTTON16,            "P7 Button 16",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, START,               "P7 Start",               SEQ_DEF_1(INDEXED(JOYCODE_START, 6)) )
-	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, SELECT,              "P7 Select",              SEQ_DEF_1(INDEXED(JOYCODE_COIN, 6)) )
+	INPUT_PORT_DIGITAL_TYPE( 7, PLAYER7, SELECT,              "P7 Select",              SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 6)) )
 
 	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, JOYSTICK_UP,         "P8 Up",                  SEQ_DEF_3(INDEXED(JOYCODE_Y_UP_SWITCH, 7), SEQCODE_OR, INDEXED(JOYCODE_HAT1UP, 7)) )
 	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, JOYSTICK_DOWN,       "P8 Down",                SEQ_DEF_3(INDEXED(JOYCODE_Y_DOWN_SWITCH, 7), SEQCODE_OR, INDEXED(JOYCODE_HAT1DOWN, 7)) )
@@ -374,7 +374,7 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, BUTTON15,            "P8 Button 15",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, BUTTON16,            "P8 Button 16",           SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, START,               "P8 Start",               SEQ_DEF_1(INDEXED(JOYCODE_START, 7)) )
-	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, SELECT,              "P8 Select",              SEQ_DEF_1(INDEXED(JOYCODE_COIN, 7)) )
+	INPUT_PORT_DIGITAL_TYPE( 8, PLAYER8, SELECT,              "P8 Select",              SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 7)) )
 
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   START1,              "1 Player Start",         SEQ_DEF_1(INDEXED(JOYCODE_START, 0)) )
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   START2,              "2 Players Start",        SEQ_DEF_1(INDEXED(JOYCODE_START, 1)) )
@@ -385,10 +385,10 @@ static const input_type_desc core_types[] =
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   START7,              "7 Players Start",        SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   START8,              "8 Players Start",        SEQ_DEF_0 )
 
-	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN1,               "Coin 1",                 SEQ_DEF_1(INDEXED(JOYCODE_COIN, 0)) )
-	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN2,               "Coin 2",                 SEQ_DEF_1(INDEXED(JOYCODE_COIN, 1)) )
-	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN3,               "Coin 3",                 SEQ_DEF_1(INDEXED(JOYCODE_COIN, 2)) )
-	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN4,               "Coin 4",                 SEQ_DEF_1(INDEXED(JOYCODE_COIN, 3)) )
+	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN1,               "Coin 1",                 SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 0)) )
+	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN2,               "Coin 2",                 SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 1)) )
+	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN3,               "Coin 3",                 SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 2)) )
+	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN4,               "Coin 4",                 SEQ_DEF_1(INDEXED(JOYCODE_SELECT, 3)) )
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN5,               "Coin 5",                 SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN6,               "Coin 6",                 SEQ_DEF_0 )
 	INPUT_PORT_DIGITAL_TYPE( 0, OTHER,   COIN7,               "Coin 7",                 SEQ_DEF_0 )
